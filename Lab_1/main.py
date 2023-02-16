@@ -33,20 +33,14 @@ print()
 
 print("Задание №3")
 my_list = [1,2,3]
-my_list.reverse()
-my_list.append(12)
-my_list.reverse()
+my_list.insert(0,12)
 print(*my_list)
 
 print()
 
 print("Задание №4")
 my_list = [1,2,3,10]
-my_list.reverse()
-a = my_list.pop()
-my_list.append(12)
-my_list.append(a)
-my_list.reverse() 
+my_list.insert(1,12)
 print(*my_list)
 
 
